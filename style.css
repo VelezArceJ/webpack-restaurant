@@ -1,0 +1,106 @@
+/* GENERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+}
+
+#container {
+    position: relative;
+}
+
+/* HEADER */
+
+#header {
+    background-color: rgb(0, 75, 0);
+    color: white;
+    font-style: italic;
+    
+}
+
+#header h1 {
+    text-align: center;
+    font-size: 3em;
+    position: relative;
+    right: .6em;
+}
+
+#nav {
+    display: grid;
+    grid-template-areas: 
+    'tab tab tab';
+    height: 3.1em;
+}
+
+.tab {
+    border: none;
+    font-size: 2em;
+    outline: none;
+    margin: 0 2em;
+    grid-area: 'tab';
+    background-color: rgb(0, 75, 0);
+    color: white;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* MAIN */
+
+.section {
+    margin-bottom: 2em;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.section-para, article {
+    margin: 0 auto;
+    width: 30em;
+}
+
+.section-ul {
+    text-align: center;
+}
+
+#first-section {
+    margin-top: 2em;
+}
+
+.section:last-child {
+    margin-bottom: 6em;
+}
+
+.item-name {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.item-desc {
+    font-size: 18px;
+}
+
+.item-price {
+    font-size: 14px;
+}
+
+/* FOOTER */
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(130, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+#footer h3 {
+    text-align: center;
+    font-style: italic;
+    font-size: 2em;
+    line-height: 3em;
+}
